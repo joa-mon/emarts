@@ -1,0 +1,138 @@
+body{
+    background-color: #f4ebeb;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    /* min-height: 100vh; */
+
+    color: #5f4949;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pgcontent
+{
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+header{
+    padding: 10px;
+    color: #8f6e6e;
+}
+
+/* Styling Links and Navigation bar */
+a:link, a:visited{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    background-color: #f7f1f1;
+}
+nav{
+    background-color: #ffffff;
+    padding: 20px;
+}
+nav a{
+    padding: 20px;
+}
+
+/* Styling main content */
+.header{
+    padding: 30px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.header h1{
+    background-color: #ffffff;
+    border-style: double;
+    border-color: #C4A9A9;
+    text-align: center;
+    width: 500px;
+    margin: 0;
+}
+.header .subheader{
+    display: flex;
+    flex-direction: row;
+}
+.header .subheader h3{
+    border-style: double;
+    border-top: none;
+    padding: 2px;
+    margin: 0;
+    background-color: #ffffff;
+    border-color: #C4A9A9;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+}
+
+.pgcontent{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 50px;
+}
+main{
+    background-color: #ffffff;
+    border-style: double;
+    border-color: #C4A9A9;
+    width: 1000px;
+    padding: 20px;
+    word-wrap: break-word;
+}
+/* Box that icon and cover images reside in */
+.imgbox{
+    border-style: double;
+    border-color: #C4A9A9;
+    width: 400px;
+    height: 400px;
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+main .imgbox img{
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+
+/* Contact Information */
+section.contact, section.pages{
+    background-color: #ffffff;
+    border-style: double;
+    border-color: #C4A9A9;
+    text-align: center;
+    justify-items: end;
+    width: max-content;
+    text-transform: uppercase;
+}
+address, section.pages nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-style: normal;
+    background-color:  #C4A9A9;
+    width: fit-content;
+    padding: 10px;
+}
+address a, section.pages nav a{
+    background-color: #ffffff;
+    width: 106px;
+    padding: 20px;
+}
+
+/* footer styling */
+footer{
+    background-color: #C4A9A9;
+    text-align: center;
+    padding: 10px;
+    font-size: small;
+    color: #8f6e6e;
+}
